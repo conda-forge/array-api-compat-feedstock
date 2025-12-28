@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: array-api-compat
-  version: "1.12.0"
+  version: "1.13.0"
   python_min: "3.10"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/array_api_compat-${{ version }}.tar.gz
-  sha256: 585bc615f650de53ac24b7c012baecfcdd810f50df3573be47e6dd9fa20df974
+  sha256: 8b83a56aa8b9477472fee37f7731968dd213e20c198a05ac49caeff9b03f48a6
 
 build:
   number: 0
